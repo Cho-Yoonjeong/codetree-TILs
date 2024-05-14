@@ -9,4 +9,4 @@ for elem in arr:
         cnt += 1
 
 for i in range(cnt-1, -1, -1):
-    print(arr[i], end=" ")
+    print(even[i], end=" ")
