@@ -1,4 +1,4 @@
-arr = input()
-arr = sorted(arr)
-arr = "".join(arr)
-print(arr)
+S = input()
+S = sorted(S)
+S = "".join(S)
+print(S)
