@@ -1,14 +1,10 @@
 arr = list(map(int, input().split()))
-arr_new = []
+cnt = 0
 
 for elem in arr:
     if elem == 0:
         break
-    arr_new.append(elem)
+    cnt += 1
 
-if 0 in arr:
-    for i in range(len(arr)-2, -1, -1):
-        print(arr[i], end=" ")
-else:
-    for i in range(len(arr)-1, -1, -1):
-        print(arr[i], end=" ")
+for i in range(cnt-1, -1, -1):
+    print(arr[i], end=" ")
