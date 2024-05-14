@@ -6,5 +6,9 @@ for elem in arr:
         break
     arr_new.append(elem)
 
-for i in range(len(arr)-2, -1, -1):
-    print(arr[i], end=" ")
+if 0 in arr:
+    for i in range(len(arr)-2, -1, -1):
+        print(arr[i], end=" ")
+else:
+    for i in range(len(arr)-1, -1, -1):
+        print(arr[i], end=" ")
